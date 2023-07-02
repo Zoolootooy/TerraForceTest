@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+.cp {
+  cursor: pointer;
+}
+
+.author {
+  &field {
+    font-size: 12px;
+  }
+
+  &-name {
+    color: dodgerblue;
+  }
+}
+
+.author-name {
+}
+
+.time-field {
+  font-size: 12px;
+}
